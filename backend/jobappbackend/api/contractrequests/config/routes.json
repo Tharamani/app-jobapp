@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contractrequests",
+      "handler": "contractrequests.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contractrequests/count",
+      "handler": "contractrequests.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contractrequests/:username",
+      "handler": "contractrequests.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/contractrequests",
+      "handler": "contractrequests.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contractrequests/:id",
+      "handler": "contractrequests.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contractrequests/:id",
+      "handler": "contractrequests.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

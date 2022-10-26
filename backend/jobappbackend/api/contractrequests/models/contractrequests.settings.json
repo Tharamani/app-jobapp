@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contractrequests",
+  "info": {
+    "name": "contractrequests",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Date": {
+      "type": "datetime"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "userId": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "contractrequests"
+    }
+  }
+}

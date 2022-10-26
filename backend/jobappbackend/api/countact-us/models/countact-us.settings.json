@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countactuses",
+  "info": {
+    "name": "countactUS",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "query": {
+      "type": "string",
+      "required": true
+    },
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "phone_num": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,171 @@
+.slick-dots li.slick-active button:before {
+    color: #881798;
+  }
+
+  
+  .slick-slider{
+    width: 100%;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    
+  }
+  .slick-prev
+  {
+      left: 15px;
+  }
+  [dir='rtl'] .slick-prev
+  {
+      right: 15px;
+      left: auto;
+  }
+  
+  .slick-next
+  {
+      right: 36px;
+  }
+  [dir='rtl'] .slick-next
+  {
+      right: auto;
+      left: 36px;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    color: #dcc6df;
+    top: 50%;
+    z-index: 1;
+  }
+  
+  .slick-list
+  {
+      position: relative;
+  
+      display: block;
+      overflow: hidden;
+  
+      margin: 0;
+      padding: 0;
+  }
+  
+  .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+  
+      display: block;
+      margin-left: 1.5%;
+      margin-right: auto;
+  }
+  
+  .slick-prev:hover:before,
+  .slick-next:hover:before {
+    color: hsl(282, 38%, 88%);
+    
+    z-index: 1;
+    font-size: 50px;
+    background-color: transparent;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center; 
+    border-radius: 50%;
+
+    height: 40px;
+    width: 40px;
+    background-color: rgb(209, 191, 226);
+    z-index: 1;
+    font-size: 50px;
+  }
+  
+  
+  @media screen and (max-width: 1500px) {
+    .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+  
+      display: block;
+      margin-left: 1%;
+      margin-right: auto;
+  }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+  
+      display: block;
+      margin-left: 4%;
+      margin-right: auto;
+  }
+  }
+  @media screen and (max-width: 1024px) {
+    .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+  
+      display: block;
+      margin-left: 7%;
+      margin-right: auto;
+  }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+  
+      display: block;
+      margin-left: 10%;
+      margin-right: auto;
+  }
+  }
+  @media screen and (max-width: 480px) {
+    .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+  
+      display: block;
+      margin-left: 30%;
+      margin-right: auto;
+  }
+  }
+  @media screen and (max-width: 360px) {
+    .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+  
+      display: block;
+      margin-left: 26%;
+      margin-right: auto;
+  }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+  
+      display: block;
+      margin-left: 20%;
+      margin-right: auto;
+  }
+  }

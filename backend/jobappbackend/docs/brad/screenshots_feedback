@@ -1,0 +1,19 @@
+Reference Image:Screen Shot 2020-12-07 at 9.02.20 AM (1).png
+Customers Summary Screen:
+Screen showing the summary of customers like Rob's Coffee and Kat's Cakes should be shown with good UI and UX. The screen needs major improvements of font, spaces, presentation and button placements. Example: The view button should be at the center, Fonts of heading and content should be matched with right font combinations.
+
+Reference Image: Screen Shot 2020-12-07 at 9.02.34 AM.png
+Renewal Screen:
+Renewal calendar: It is not user friendly. Customers should be able to understand the date for the renewal from calendar view.
+Spend By Month: The legend for colors should be displayed to get information of which software renewal is needed. ie: Yellow -> software 1, blue->software 2 . 
+Upcoming Renewals:UI is not looking impressive due to font mismap and improper placing of font and padding: Example:Space between page and table should not be v high as it is currently in the screenshot
+Reference Image:Screen Shot 2020-12-07 at 9.03.23 AM.png
+New Contact CLIN Screen:
+Screen needs small UI changes. 
+Placement of related boxes like start and end date should be together. 
+Font size and shape has to be as per UX/UI standards
+
+Reference Image: Screen Shot 2020-12-07 at 9.04.12 AM.png
+All Contracts Summary Page.
+Presentation has to be improved in fonts, spacing.
+Example:Header for the table should have text in the center. Table should not be attached to the page header. 

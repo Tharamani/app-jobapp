@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_category1_test_components",
+  "info": {
+    "name": "test component",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "admin_user": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "phone_number": {
+      "type": "biginteger"
+    }
+  }
+}

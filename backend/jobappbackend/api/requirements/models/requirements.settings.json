@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "requirements",
+  "info": {
+    "name": "Requirements"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Firstname": {
+      "type": "string"
+    },
+    "Lastname": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "PhoneNumber": {
+      "type": "integer"
+    },
+    "Requirement": {
+      "type": "string"
+    }
+  }
+}

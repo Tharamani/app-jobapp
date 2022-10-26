@@ -1,0 +1,115 @@
+.p{
+  position:absolute;
+  width:10%;
+  left: 103%;
+  top:10%;
+  
+}
+
+.collpse{
+  position:fixed;
+  left: 79%;
+  top:10%;
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width:20%;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 20px 5px rgba(39, 46, 45, 0.7);
+}
+
+.menu{
+  margin-left:-130px;
+}
+
+
+
+.img1{
+  box-sizing: border-box;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 45px;
+  min-height: 100px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+
+.img{
+  background-image: url('1.png');
+}
+
+.img2{
+  background-image: url('2.png');
+}
+
+.img3{
+  background-image: url('3.png');
+}
+
+.img4{
+  background-image: url('4.png');
+}
+
+.img5{
+  background-image: url('5.png');
+}
+
+.img6{
+  background-image: url('6.png');
+}
+
+.img7{
+  background-image: url('7.png');
+}
+
+.img8{
+  background-image: url('8.png');
+}
+
+.img9{
+  background-image: url('8.png');
+}
+
+
+.collpse::-webkit-scrollbar{
+  width:10px;
+}
+
+.collpse::-webkit-scrollbar-track{
+  border-radius:10px;
+}
+
+.collpse::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: rgb(192, 187, 204);
+  margin-right: 10px;
+}
+
+.g{
+  cursor: pointer;
+  padding: 0px;
+}
+
+.g:hover{
+  background-color: rgb(248, 245, 250);
+  border-radius: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+

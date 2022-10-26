@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "availables",
+  "info": {
+    "name": "Available",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "available": {
+      "type": "string"
+    }
+  }
+}

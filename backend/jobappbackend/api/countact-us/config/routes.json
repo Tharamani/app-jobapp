@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/countact-uses",
+      "handler": "countact-us.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/countact-uses/count",
+      "handler": "countact-us.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/countact-uses/:id",
+      "handler": "countact-us.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/countact-uses",
+      "handler": "countact-us.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/countact-uses/:id",
+      "handler": "countact-us.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/countact-uses/:id",
+      "handler": "countact-us.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

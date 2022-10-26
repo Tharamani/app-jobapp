@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technologies",
+  "info": {
+    "name": "technologies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "technology": {
+      "type": "string"
+    },
+    "users": {
+      "via": "technologies",
+      "plugin": "users-permissions",
+      "collection": "user"
+    }
+  }
+}

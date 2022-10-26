@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "testsingletypes",
+  "info": {
+    "name": "testsingletype"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "richtextfield": {
+      "type": "richtext"
+    },
+    "textfield": {
+      "type": "string"
+    }
+  }
+}
